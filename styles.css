@@ -6,7 +6,8 @@
 
   .menu {
     height: 100px;
-    background-color: #B2D6FF;    
+    background-color: #B2D6FF;
+  }
   
   .sidebar {
     float: left;
@@ -16,16 +17,13 @@
   }
   
   .content {
-    float: left;
-    width: 650px;
-    height: 500px;
-    background-color: #F5CF8E;    
+    padding: 20px;    
   }
   
   .footer {
-    clear: both;
-    height: 200px;
-    background-color: #D6E9FE;   
+    overflow: hidden;
+    background-color: #D6E9FE;  
+  }
 
   .page {
     width: 900px;
@@ -35,4 +33,42 @@
   .container {
     overflow: hidden;
     background-color: #EAEDF0;
+  }
+
+  .column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;
+  }
+
+  .article-image {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+  }
+  
+  .username {
+    margin-top: 30px;
+  }
+  
+  .comment {
+    margin: 10px;
+    overflow: hidden;
   }
